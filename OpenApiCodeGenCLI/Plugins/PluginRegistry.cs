@@ -43,9 +43,9 @@ namespace OpenApiCodeGenCLI.Plugins
 
     public class PluginMetadata
     {
-        public string Name { get; set; }
-        public string Version { get; set; }
-        public string[] Languages { get; set; }
-        public string Assembly { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public string Version { get; set; } = string.Empty;
+        public string[] Languages { get; set; } = Array.Empty<string>();
+        public string Assembly { get; set; } = string.Empty;
     }
 }

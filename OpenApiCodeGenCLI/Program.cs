@@ -13,11 +13,11 @@ namespace OpenApiCodeGenCLI
 {
     public class Config
     {
-        public string Spec { get; set; }
-        public string Output { get; set; }
-        public string Language { get; set; }
-        public string PluginPath { get; set; }
-        public Dictionary<string, Dictionary<string, string>> PluginSettings { get; set; }
+        public string Spec { get; set; } = String.Empty;
+        public string Output { get; set; } = String.Empty;
+        public string Language { get; set; } = String.Empty;
+        public string PluginPath { get; set; } = String.Empty;
+        public Dictionary<string, Dictionary<string, string>> PluginSettings { get; set; } = new Dictionary<string, Dictionary<string, string>>();
     }
 
     public class Program
@@ -32,7 +32,7 @@ namespace OpenApiCodeGenCLI
             var logger = loggerFactory.CreateLogger<Program>();
 
             // Load configuration
-            Config config = null;
+            Config? config = null;
             if (File.Exists("config.json"))
             {
                 string json = await File.ReadAllTextAsync("config.json");
@@ -102,7 +102,7 @@ namespace OpenApiCodeGenCLI
                     logger.LogInformation($"Found compatible plugin: {pluginMetadata.Name}");
                     var pluginAssemblyPath = Path.Combine(pluginPath, pluginMetadata.Assembly);
                     logger.LogInformation($"Loading plugin assembly from: {pluginAssemblyPath}");
-                    ICodeGenPlugin plugin = PluginLoader.LoadPlugin(pluginAssemblyPath, language);
+                    ICodeGenPlugin? plugin = PluginLoader.LoadPlugin(pluginAssemblyPath, language);
 
                     if (plugin != null)
                     {

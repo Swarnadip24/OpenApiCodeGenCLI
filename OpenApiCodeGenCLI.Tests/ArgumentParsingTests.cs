@@ -17,9 +17,9 @@ namespace OpenApiCodeGenCLI.Tests
                 new Option<string>("--language", "Programming language for code generation")
             };
 
-            string spec = null;
-            string output = null;
-            string language = null;
+            string? spec = null;
+            string? output = null;
+            string? language = null;
 
             rootCommand.Handler = CommandHandler.Create<string, string, string>((s, o, l) =>
             {

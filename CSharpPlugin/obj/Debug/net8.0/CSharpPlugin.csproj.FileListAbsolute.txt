@@ -16,3 +16,4 @@ C:\Users\Swarnadip\Desktop\CBA\OpenApiCodeGenCLI\CSharpPlugin\obj\Debug\net8.0\C
 C:\Users\Swarnadip\Desktop\CBA\OpenApiCodeGenCLI\CSharpPlugin\obj\Debug\net8.0\refint\CSharpPlugin.dll
 C:\Users\Swarnadip\Desktop\CBA\OpenApiCodeGenCLI\CSharpPlugin\obj\Debug\net8.0\CSharpPlugin.pdb
 C:\Users\Swarnadip\Desktop\CBA\OpenApiCodeGenCLI\CSharpPlugin\obj\Debug\net8.0\ref\CSharpPlugin.dll
+C:\Users\Swarnadip\Desktop\CBA\OpenApiCodeGenCLI\CSharpPlugin\obj\Debug\net8.0\CSharpPlugin.sourcelink.json

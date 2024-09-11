@@ -7,7 +7,7 @@ namespace OpenApiCodeGenCLI.Plugins
 {
     public class PluginLoader
     {
-        public static ICodeGenPlugin LoadPlugin(string pluginPath, string language)
+        public static ICodeGenPlugin? LoadPlugin(string pluginPath, string language)
         {
             if (!File.Exists(pluginPath))
             {
@@ -18,7 +18,7 @@ namespace OpenApiCodeGenCLI.Plugins
             var pluginType = assembly.GetTypes()
                 .FirstOrDefault(t => typeof(ICodeGenPlugin).IsAssignableFrom(t) && !t.IsAbstract && t.Name.ToLower().Contains(language.ToLower()));
 
-            return pluginType != null ? (ICodeGenPlugin)Activator.CreateInstance(pluginType) : null;
+            return pluginType != null ? (ICodeGenPlugin?)Activator.CreateInstance(pluginType) : null;
         }
     }
 }

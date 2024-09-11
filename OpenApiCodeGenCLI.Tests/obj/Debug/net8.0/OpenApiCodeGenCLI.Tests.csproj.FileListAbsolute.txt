@@ -119,3 +119,4 @@ C:\Users\Swarnadip\Desktop\CBA\OpenApiCodeGenCLI\OpenApiCodeGenCLI.Tests\obj\Deb
 C:\Users\Swarnadip\Desktop\CBA\OpenApiCodeGenCLI\OpenApiCodeGenCLI.Tests\obj\Debug\net8.0\OpenApiCodeGenCLI.Tests.pdb
 C:\Users\Swarnadip\Desktop\CBA\OpenApiCodeGenCLI\OpenApiCodeGenCLI.Tests\obj\Debug\net8.0\OpenApiCodeGenCLI.Tests.genruntimeconfig.cache
 C:\Users\Swarnadip\Desktop\CBA\OpenApiCodeGenCLI\OpenApiCodeGenCLI.Tests\obj\Debug\net8.0\ref\OpenApiCodeGenCLI.Tests.dll
+C:\Users\Swarnadip\Desktop\CBA\OpenApiCodeGenCLI\OpenApiCodeGenCLI.Tests\obj\Debug\net8.0\OpenApiCodeGenCLI.Tests.sourcelink.json

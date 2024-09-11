@@ -28,3 +28,4 @@ C:\Users\Swarnadip\Desktop\CBA\OpenApiCodeGenCLI\OpenApiCodeGenCLI\obj\Debug\net
 C:\Users\Swarnadip\Desktop\CBA\OpenApiCodeGenCLI\OpenApiCodeGenCLI\obj\Debug\net8.0\OpenApiCodeGenCLI.pdb
 C:\Users\Swarnadip\Desktop\CBA\OpenApiCodeGenCLI\OpenApiCodeGenCLI\obj\Debug\net8.0\OpenApiCodeGenCLI.genruntimeconfig.cache
 C:\Users\Swarnadip\Desktop\CBA\OpenApiCodeGenCLI\OpenApiCodeGenCLI\obj\Debug\net8.0\ref\OpenApiCodeGenCLI.dll
+C:\Users\Swarnadip\Desktop\CBA\OpenApiCodeGenCLI\OpenApiCodeGenCLI\obj\Debug\net8.0\OpenApiCodeGenCLI.sourcelink.json
