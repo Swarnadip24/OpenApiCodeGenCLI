@@ -1,0 +1,6 @@
+{
+    "Name": "CSharpPlugin",
+    "Version": "1.0.0",
+    "Languages": ["csharp"],
+    "Assembly": "CSharpPlugin.dll"
+}

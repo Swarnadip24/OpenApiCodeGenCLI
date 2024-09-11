@@ -1,0 +1,12 @@
+{
+    "spec": "../openapi.yaml",
+    "output": "../output",
+    "language": "csharp",
+    "pluginPath": "Plugins",
+    "pluginSettings": {
+        "csharp": {
+            "namespace": "MyGeneratedNamespace",
+            "useAsyncMethods": "true"
+        }
+    }
+}
